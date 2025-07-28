@@ -5,7 +5,7 @@ A simple and responsive one-page website for a gardening business built using **
 
 ## 📸 Screenshot
 
-![Gardening Website Screenshot]<img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/42c2bd0a-47c5-450c-80d0-b9bc8e2e45be" />
+<img width="1366" height="768" alt="Screenshot (1)" src="https://github.com/user-attachments/assets/42c2bd0a-47c5-450c-80d0-b9bc8e2e45be" />
 
 
 ## 📁 Features
