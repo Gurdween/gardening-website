@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GrowSmart Gardens - Transform Your Garden Into Paradise</title>
+<script src="https://cdn.tailwindcss.com/3.4.16"></script>
+<script>tailwind.config={theme:{extend:{colors:{primary:'#2C5530',secondary:'#8B4513'},borderRadius:{'none':'0px','sm':'4px',DEFAULT:'8px','md':'12px','lg':'16px','xl':'20px','2xl':'24px','3xl':'32px','full':'9999px','button':'8px'}}}}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+<style>
+:where([class^="ri-"])::before { content: "\f3c2"; }
+.hero-bg {
+background-image: url('https://readdy.ai/api/search-image?query=Beautiful%20lush%20garden%20paradise%20with%20vibrant%20green%20plants%2C%20colorful%20flowers%2C%20well-maintained%20pathways%2C%20natural%20sunlight%20filtering%20through%20trees%2C%20peaceful%20outdoor%20sanctuary%20with%20perfect%20landscaping%2C%20professional%20garden%20design%2C%20nature%20photography%20style%2C%20high%20quality%20botanical%20paradise%2C%20serene%20gardening%20environment%20with%20rich%20soil%20and%20healthy%20vegetation&width=1920&height=800&seq=hero-garden&orientation=landscape');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+.sticky-header {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+z-index: 1000;
+backdrop-filter: blur(10px);
+background: rgba(255, 255, 255, 0.95);
+transition: all 0.3s ease;
+}
+.scroll-smooth {
+scroll-behavior: smooth;
+}
+</style>
+</head>
+<body class="scroll-smooth bg-green-50 text-gray-800 font-['Open_Sans']">
+<header class="sticky-header border-b border-gray-100">
+<div class="w-full px-6 py-4">
+<div class="flex items-center justify-between max-w-7xl mx-auto">
+<div class="flex items-center space-x-3">
+<div class="w-12 h-12 flex items-center justify-center bg-primary rounded-full">
+<i class="ri-leaf-line text-white text-xl"></i>
+</div>
+<span class="font-['Pacifico'] text-2xl text-primary">GrowSmart Gardens</span>
+</div>
+<nav class="flex items-center space-x-4">
+<a href="#home" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Home</a>
+<a href="#plant-guide" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Plant Guide</a>
+<a href="#seasonal-tips" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Seasonal Tips</a>
+<a href="#tools" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Tools</a>
+<a href="#community" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Community</a>
+<a href="#contact" class="px-4 py-2 bg-primary text-white hover:bg-green-700 font-medium transition-colors !rounded-button whitespace-nowrap">Contact</a>
+</nav>
+</div>
+</div>
+</header>
+<main>
+<section id="home" class="hero-bg min-h-screen flex items-center relative">
+<div class="absolute inset-0 bg-black bg-opacity-30"></div>
+<div class="w-full px-6 relative z-10">
+<div class="max-w-7xl mx-auto">
+<div class="max-w-2xl">
+<h1 class="font-['Montserrat'] text-6xl font-bold text-white mb-6 leading-tight">Transform Your Garden Into Paradise</h1>
+<p class="text-xl text-white mb-8 leading-relaxed">Expert guidance for every green thumb. Discover the secrets to creating a thriving, beautiful garden that brings joy year-round.</p>
+<button class="bg-primary hover:bg-green-700 text-white px-8 py-4 !rounded-button font-semibold text-lg transition-colors whitespace-nowrap">Start Growing Today</button>
+</div>
+</div>
+</div>
+</section>
+<section id="plant-guide" class="py-20 bg-green-50/50">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-['Montserrat'] text-4xl font-bold text-gray-900 mb-4">Plant Guide</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">Explore our comprehensive plant categories and discover the perfect additions to your garden</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow group cursor-pointer">
+<div class="w-16 h-16 flex items-center justify-center bg-green-100 rounded-full mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<i class="ri-flower-line text-2xl text-primary group-hover:text-white"></i>
+</div>
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Flowering Plants</h3>
+<p class="text-gray-600 mb-4">Beautiful blooms that add color and fragrance to your garden throughout the seasons</p>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-gray-500">
+<p>• Water regularly but avoid overwatering</p>
+<p>• Provide 6-8 hours of sunlight daily</p>
+<p>• Deadhead spent blooms for continued flowering</p>
+</div>
+</div>
+<div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow group cursor-pointer">
+<div class="w-16 h-16 flex items-center justify-center bg-green-100 rounded-full mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<i class="ri-plant-line text-2xl text-primary group-hover:text-white"></i>
+</div>
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Herbs & Vegetables</h3>
+<p class="text-gray-600 mb-4">Fresh, homegrown produce and aromatic herbs for your kitchen and table</p>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-gray-500">
+<p>• Rich, well-draining soil is essential</p>
+<p>• Regular harvesting encourages growth</p>
+<p>• Companion planting improves yields</p>
+</div>
+</div>
+<div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow group cursor-pointer">
+<div class="w-16 h-16 flex items-center justify-center bg-green-100 rounded-full mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<i class="ri-tree-line text-2xl text-primary group-hover:text-white"></i>
+</div>
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Trees & Shrubs</h3>
+<p class="text-gray-600 mb-4">Structural plants that provide shade, privacy, and year-round garden interest</p>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-gray-500">
+<p>• Plant in fall or early spring</p>
+<p>• Deep watering less frequently</p>
+<p>• Prune during dormant season</p>
+</div>
+</div>
+<div class="bg-white rounded-xl p-8 shadow-lg hover:shadow-xl transition-shadow group cursor-pointer">
+<div class="w-16 h-16 flex items-center justify-center bg-green-100 rounded-full mb-6 group-hover:bg-primary group-hover:text-white transition-colors">
+<i class="ri-seedling-line text-2xl text-primary group-hover:text-white"></i>
+</div>
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Indoor Plants</h3>
+<p class="text-gray-600 mb-4">Bring nature indoors with low-maintenance houseplants that purify air</p>
+<div class="opacity-0 group-hover:opacity-100 transition-opacity text-sm text-gray-500">
+<p>• Bright, indirect light preferred</p>
+<p>• Allow soil to dry between waterings</p>
+<p>• Dust leaves regularly for health</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="seasonal-tips" class="py-20 bg-green-50/70">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-['Montserrat'] text-4xl font-bold text-gray-900 mb-4">Seasonal Tips</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">Stay ahead of the seasons with our expert gardening advice and monthly recommendations</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<div class="lg:col-span-1">
+<div class="bg-primary text-white rounded-xl p-8">
+<div class="text-center mb-6">
+<div class="w-20 h-20 flex items-center justify-center bg-white bg-opacity-20 rounded-full mx-auto mb-4">
+<i class="ri-calendar-line text-3xl"></i>
+</div>
+<h3 class="font-['Montserrat'] text-2xl font-semibold">July 2025</h3>
+<p class="text-green-100">Summer Growth Season</p>
+</div>
+<div class="space-y-4">
+<div class="flex items-start space-x-3">
+<div class="w-6 h-6 flex items-center justify-center bg-white bg-opacity-20 rounded-full flex-shrink-0 mt-0.5">
+<i class="ri-drop-line text-sm"></i>
+</div>
+<p class="text-sm">Deep watering in early morning to prevent evaporation</p>
+</div>
+<div class="flex items-start space-x-3">
+<div class="w-6 h-6 flex items-center justify-center bg-white bg-opacity-20 rounded-full flex-shrink-0 mt-0.5">
+<i class="ri-scissors-line text-sm"></i>
+</div>
+<p class="text-sm">Deadhead flowers to encourage continuous blooming</p>
+</div>
+<div class="flex items-start space-x-3">
+<div class="w-6 h-6 flex items-center justify-center bg-white bg-opacity-20 rounded-full flex-shrink-0 mt-0.5">
+<i class="ri-bug-line text-sm"></i>
+</div>
+<p class="text-sm">Monitor for summer pests and treat naturally</p>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-6">
+<div class="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6">
+<div class="w-12 h-12 flex items-center justify-center bg-green-500 rounded-full mb-4">
+<i class="ri-sun-line text-white text-xl"></i>
+</div>
+<h4 class="font-['Montserrat'] text-lg font-semibold mb-2">Summer Care</h4>
+<p class="text-gray-600 text-sm mb-3">Essential summer gardening practices for healthy plants</p>
+<ul class="text-sm text-gray-600 space-y-1">
+<li>• Mulch around plants to retain moisture</li>
+<li>• Harvest vegetables regularly</li>
+<li>• Provide shade for sensitive plants</li>
+</ul>
+</div>
+<div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6">
+<div class="w-12 h-12 flex items-center justify-center bg-blue-500 rounded-full mb-4">
+<i class="ri-water-percent-line text-white text-xl"></i>
+</div>
+<h4 class="font-['Montserrat'] text-lg font-semibold mb-2">Watering Tips</h4>
+<p class="text-gray-600 text-sm mb-3">Smart watering strategies for the hot season</p>
+<ul class="text-sm text-gray-600 space-y-1">
+<li>• Water deeply but less frequently</li>
+<li>• Use drip irrigation for efficiency</li>
+<li>• Check soil moisture before watering</li>
+</ul>
+</div>
+<div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-xl p-6">
+<div class="w-12 h-12 flex items-center justify-center bg-yellow-500 rounded-full mb-4">
+<i class="ri-seedling-line text-white text-xl"></i>
+</div>
+<h4 class="font-['Montserrat'] text-lg font-semibold mb-2">Planting Guide</h4>
+<p class="text-gray-600 text-sm mb-3">What to plant and sow in summer</p>
+<ul class="text-sm text-gray-600 space-y-1">
+<li>• Start fall vegetable seeds indoors</li>
+<li>• Plant heat-tolerant annuals</li>
+<li>• Divide spring-blooming perennials</li>
+</ul>
+</div>
+<div class="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
+<div class="w-12 h-12 flex items-center justify-center bg-purple-500 rounded-full mb-4">
+<i class="ri-tools-line text-white text-xl"></i>
+</div>
+<h4 class="font-['Montserrat'] text-lg font-semibold mb-2">Maintenance</h4>
+<p class="text-gray-600 text-sm mb-3">Keep your garden in peak condition</p>
+<ul class="text-sm text-gray-600 space-y-1">
+<li>• Prune summer-flowering shrubs</li>
+<li>• Weed regularly when soil is moist</li>
+<li>• Clean and maintain garden tools</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="tools" class="py-20 bg-green-50/30">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-['Montserrat'] text-4xl font-bold text-gray-900 mb-4">Essential Tools</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">Discover the must-have tools that make gardening easier, more efficient, and more enjoyable</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+<div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=Professional%20gardening%20hand%20tools%20including%20trowel%2C%20pruning%20shears%2C%20and%20hand%20rake%20arranged%20on%20clean%20white%20background%2C%20high%20quality%20product%20photography%2C%20sharp%20focus%20on%20metal%20tools%20with%20wooden%20handles%2C%20minimalist%20styling%20for%20garden%20equipment%20showcase&width=400&height=300&seq=hand-tools&orientation=landscape');"></div>
+<div class="p-6">
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Hand Tools</h3>
+<p class="text-gray-600 mb-4">Essential hand tools for precise gardening work and daily maintenance tasks</p>
+<ul class="text-sm text-gray-600 space-y-2 mb-4">
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Ergonomic trowel for planting</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Sharp pruning shears</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Cultivating hand rake</span>
+</li>
+</ul>
+<button class="w-full bg-primary hover:bg-green-700 text-white py-2 !rounded-button font-medium transition-colors whitespace-nowrap">View Collection</button>
+</div>
+</div>
+<div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+<div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=Modern%20watering%20equipment%20including%20watering%20can%2C%20garden%20hose%20with%20spray%20nozzle%2C%20and%20drip%20irrigation%20system%20components%20on%20clean%20background%2C%20professional%20product%20photography%20for%20garden%20watering%20tools%2C%20organized%20display%20of%20irrigation%20equipment&width=400&height=300&seq=watering-tools&orientation=landscape');"></div>
+<div class="p-6">
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Watering Equipment</h3>
+<p class="text-gray-600 mb-4">Efficient watering solutions to keep your plants healthy and hydrated</p>
+<ul class="text-sm text-gray-600 space-y-2 mb-4">
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Premium watering can</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Adjustable spray nozzle</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Drip irrigation kit</span>
+</li>
+</ul>
+<button class="w-full bg-primary hover:bg-green-700 text-white py-2 !rounded-button font-medium transition-colors whitespace-nowrap">View Collection</button>
+</div>
+</div>
+<div class="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
+<div class="h-48 bg-cover bg-center" style="background-image: url('https://readdy.ai/api/search-image?query=Garden%20power%20tools%20including%20electric%20hedge%20trimmer%2C%20leaf%20blower%2C%20and%20cordless%20drill%20arranged%20professionally%20on%20white%20background%2C%20modern%20gardening%20equipment%20photography%2C%20clean%20product%20showcase%20of%20motorized%20garden%20tools%20for%20landscaping&width=400&height=300&seq=power-tools&orientation=landscape');"></div>
+<div class="p-6">
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Power Tools</h3>
+<p class="text-gray-600 mb-4">Time-saving power tools for larger gardening projects and maintenance</p>
+<ul class="text-sm text-gray-600 space-y-2 mb-4">
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Electric hedge trimmer</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Cordless leaf blower</span>
+</li>
+<li class="flex items-center space-x-2">
+<i class="ri-check-line text-green-500"></i>
+<span>Multi-tool cultivator</span>
+</li>
+</ul>
+<button class="w-full bg-primary hover:bg-green-700 text-white py-2 !rounded-button font-medium transition-colors whitespace-nowrap">View Collection</button>
+</div>
+</div>
+</div>
+<div class="mt-16 bg-white rounded-2xl p-8 shadow-lg">
+<h3 class="font-['Montserrat'] text-2xl font-semibold text-center mb-8">Tool Maintenance Guide</h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-blue-100 rounded-full mx-auto mb-4">
+<i class="ri-drop-line text-blue-600 text-2xl"></i>
+</div>
+<h4 class="font-semibold mb-2">Clean After Use</h4>
+<p class="text-gray-600 text-sm">Remove soil and debris, then wipe tools dry to prevent rust and damage</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-yellow-100 rounded-full mx-auto mb-4">
+<i class="ri-oil-line text-yellow-600 text-2xl"></i>
+</div>
+<h4 class="font-semibold mb-2">Oil Moving Parts</h4>
+<p class="text-gray-600 text-sm">Apply light oil to hinges and moving parts to ensure smooth operation</p>
+</div>
+<div class="text-center">
+<div class="w-16 h-16 flex items-center justify-center bg-red-100 rounded-full mx-auto mb-4">
+<i class="ri-knife-line text-red-600 text-2xl"></i>
+</div>
+<h4 class="font-semibold mb-2">Keep Blades Sharp</h4>
+<p class="text-gray-600 text-sm">Regularly sharpen cutting tools for clean cuts that promote plant health</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="community" class="py-20 bg-green-50/60">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-['Montserrat'] text-4xl font-bold text-gray-900 mb-4">Garden Community</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">Join thousands of passionate gardeners sharing their success stories, tips, and beautiful garden transformations</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
+<div>
+<h3 class="font-['Montserrat'] text-2xl font-semibold mb-8">Success Stories</h3>
+<div class="space-y-6">
+<div class="bg-gray-50 rounded-xl p-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+<span class="text-white font-semibold">MR</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center space-x-2 mb-2">
+<h4 class="font-semibold">Maria Rodriguez</h4>
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+</div>
+</div>
+<p class="text-gray-600 text-sm mb-2">"Thanks to GrowSmart Gardens, I transformed my small balcony into a thriving herb garden. The seasonal tips helped me grow fresh basil, rosemary, and thyme year-round!"</p>
+<span class="text-xs text-gray-500">Urban Herb Gardener • 2 years member</span>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 rounded-xl p-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+<span class="text-white font-semibold">JC</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center space-x-2 mb-2">
+<h4 class="font-semibold">James Chen</h4>
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+</div>
+</div>
+<p class="text-gray-600 text-sm mb-2">"From a complete beginner to growing prize-winning tomatoes! The plant guide and tool recommendations made all the difference in my vegetable garden success."</p>
+<span class="text-xs text-gray-500">Vegetable Enthusiast • 3 years member</span>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 rounded-xl p-6">
+<div class="flex items-start space-x-4">
+<div class="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">
+<span class="text-white font-semibold">EW</span>
+</div>
+<div class="flex-1">
+<div class="flex items-center space-x-2 mb-2">
+<h4 class="font-semibold">Emily Watson</h4>
+<div class="flex space-x-1">
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+<i class="ri-star-fill text-yellow-400 text-sm"></i>
+</div>
+</div>
+<p class="text-gray-600 text-sm mb-2">"The community support is incredible! I've learned so much from fellow gardeners and now my flower garden blooms beautifully through all seasons."</p>
+<span class="text-xs text-gray-500">Flower Garden Specialist • 1 year member</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-['Montserrat'] text-2xl font-semibold mb-8">Garden Gallery</h3>
+<div class="grid grid-cols-2 gap-4">
+<div class="bg-cover bg-center rounded-xl h-32" style="background-image: url('https://readdy.ai/api/search-image?query=Beautiful%20home%20vegetable%20garden%20with%20raised%20beds%20full%20of%20healthy%20tomatoes%2C%20lettuce%2C%20peppers%20and%20herbs%2C%20well-organized%20rows%2C%20rich%20dark%20soil%2C%20morning%20sunlight%2C%20successful%20organic%20gardening%2C%20abundant%20harvest%2C%20thriving%20backyard%20garden&width=300&height=200&seq=veggie-garden&orientation=landscape');"></div>
+<div class="bg-cover bg-center rounded-xl h-32" style="background-image: url('https://readdy.ai/api/search-image?query=Colorful%20flower%20garden%20border%20with%20mixed%20perennials%2C%20roses%2C%20lavender%2C%20and%20seasonal%20blooms%2C%20vibrant%20colors%2C%20well-designed%20landscape%2C%20beautiful%20garden%20design%2C%20professional%20landscaping%2C%20blooming%20flower%20beds%2C%20cottage%20garden%20style&width=300&height=200&seq=flower-border&orientation=landscape');"></div>
+<div class="bg-cover bg-center rounded-xl h-32" style="background-image: url('https://readdy.ai/api/search-image?query=Small%20urban%20balcony%20garden%20with%20containers%20full%20of%20herbs%2C%20small%20vegetables%2C%20and%20flowering%20plants%2C%20space-efficient%20gardening%2C%20apartment%20balcony%20transformation%2C%20creative%20container%20gardening%2C%20city%20gardening%20success%20story&width=300&height=200&seq=balcony-garden&orientation=landscape');"></div>
+<div class="bg-cover bg-center rounded-xl h-32" style="background-image: url('https://readdy.ai/api/search-image?query=Indoor%20houseplant%20collection%20with%20various%20green%20plants%2C%20succulents%2C%20and%20flowering%20indoor%20plants%20arranged%20beautifully%20in%20modern%20pots%2C%20bright%20natural%20light%2C%20healthy%20indoor%20garden%2C%20plant%20parent%20success%2C%20green%20indoor%20space&width=300&height=200&seq=indoor-plants&orientation=landscape');"></div>
+</div>
+<div class="mt-8 bg-gradient-to-r from-primary to-green-600 rounded-xl p-6 text-white">
+<h4 class="font-['Montserrat'] text-xl font-semibold mb-3">Join Our Forum</h4>
+<p class="mb-4">Connect with fellow gardeners, ask questions, and share your own success stories</p>
+<div class="flex items-center space-x-4 text-sm mb-4">
+<div class="flex items-center space-x-1">
+<i class="ri-user-line"></i>
+<span>12,847 Members</span>
+</div>
+<div class="flex items-center space-x-1">
+<i class="ri-chat-3-line"></i>
+<span>2,156 Discussions</span>
+</div>
+</div>
+<button class="bg-white text-primary px-6 py-2 !rounded-button font-medium hover:bg-gray-100 transition-colors whitespace-nowrap">Join Community</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="contact" class="py-20 bg-green-50/40">
+<div class="max-w-7xl mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-['Montserrat'] text-4xl font-bold text-gray-900 mb-4">Get In Touch</h2>
+<p class="text-xl text-gray-600 max-w-2xl mx-auto">Have questions about gardening? Need personalized advice? We're here to help you grow!</p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+<div>
+<form class="space-y-6">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">First Name</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 !rounded-button focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your first name">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Last Name</label>
+<input type="text" class="w-full px-4 py-3 border border-gray-300 !rounded-button focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your last name">
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Email Address</label>
+<input type="email" class="w-full px-4 py-3 border border-gray-300 !rounded-button focus:ring-2 focus:ring-primary focus:border-transparent text-sm" placeholder="Enter your email">
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Gardening Experience</label>
+<div class="relative">
+<button type="button" class="w-full px-4 py-3 border border-gray-300 !rounded-button text-left bg-white flex items-center justify-between text-sm pr-8" id="experience-select">
+<span class="text-gray-500">Select your experience level</span>
+<i class="ri-arrow-down-s-line text-gray-400"></i>
+</button>
+</div>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-2">Message</label>
+<textarea rows="5" class="w-full px-4 py-3 border border-gray-300 !rounded-button focus:ring-2 focus:ring-primary focus:border-transparent resize-none text-sm" placeholder="Tell us about your gardening goals or questions..."></textarea>
+</div>
+<button type="submit" class="w-full bg-primary hover:bg-green-700 text-white py-3 !rounded-button font-medium transition-colors whitespace-nowrap">Send Message</button>
+</form>
+</div>
+<div class="space-y-8">
+<div class="bg-white rounded-xl p-8 shadow-lg">
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-6">Contact Information</h3>
+<div class="space-y-4">
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-map-pin-line text-white"></i>
+</div>
+<div>
+<h4 class="font-medium">Address</h4>
+<p class="text-gray-600 text-sm">123 Garden Way, Green Valley<br>Springfield, CA 94105</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-phone-line text-white"></i>
+</div>
+<div>
+<h4 class="font-medium">Phone</h4>
+<p class="text-gray-600 text-sm">(555) 123-GROW<br>Mon-Fri 8AM-6PM PST</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full flex-shrink-0">
+<i class="ri-mail-line text-white"></i>
+</div>
+<div>
+<h4 class="font-medium">Email</h4>
+<p class="text-gray-600 text-sm">hello@growsmartgardens.com<br>support@growsmartgardens.com</p>
+</div>
+</div>
+</div>
+</div>
+<div class="bg-white rounded-xl overflow-hidden shadow-lg">
+<div class="h-64 bg-cover bg-center" style="background-image: url('https://public.readdy.ai/gen_page/map_placeholder_1280x720.png');"></div>
+</div>
+<div class="bg-gradient-to-r from-green-500 to-primary rounded-xl p-6 text-white">
+<h3 class="font-['Montserrat'] text-xl font-semibold mb-3">Newsletter Signup</h3>
+<p class="mb-4 text-green-100">Get weekly gardening tips, seasonal advice, and exclusive offers delivered to your inbox</p>
+<div class="flex space-x-3">
+<input type="email" class="flex-1 px-4 py-2 !rounded-button border-none text-gray-900 text-sm" placeholder="Your email address">
+<button class="bg-white text-primary px-6 py-2 !rounded-button font-medium hover:bg-gray-100 transition-colors whitespace-nowrap">Subscribe</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-gray-900 text-white py-16">
+<div class="max-w-7xl mx-auto px-6">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-12">
+<div class="md:col-span-2">
+<div class="flex items-center space-x-3 mb-4">
+<div class="w-10 h-10 flex items-center justify-center bg-primary rounded-full">
+<i class="ri-leaf-line text-white"></i>
+</div>
+<span class="font-['Pacifico'] text-xl text-white">GrowSmart Gardens</span>
+</div>
+<p class="text-gray-400 mb-6 max-w-md">Empowering gardeners worldwide with expert advice, quality tools, and a supportive community to create beautiful, thriving gardens.</p>
+<div class="flex space-x-4">
+<div class="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full cursor-pointer transition-colors">
+<i class="ri-facebook-fill text-white"></i>
+</div>
+<div class="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full cursor-pointer transition-colors">
+<i class="ri-twitter-fill text-white"></i>
+</div>
+<div class="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full cursor-pointer transition-colors">
+<i class="ri-instagram-line text-white"></i>
+</div>
+<div class="w-10 h-10 flex items-center justify-center bg-gray-800 hover:bg-primary rounded-full cursor-pointer transition-colors">
+<i class="ri-youtube-fill text-white"></i>
+</div>
+</div>
+</div>
+<div>
+<h3 class="font-['Montserrat'] text-lg font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#home" class="hover:text-white transition-colors">Home</a></li>
+<li><a href="#plant-guide" class="hover:text-white transition-colors">Plant Guide</a></li>
+<li><a href="#seasonal-tips" class="hover:text-white transition-colors">Seasonal Tips</a></li>
+<li><a href="#tools" class="hover:text-white transition-colors">Tools</a></li>
+<li><a href="#community" class="hover:text-white transition-colors">Community</a></li>
+<li><a href="#contact" class="hover:text-white transition-colors">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="font-['Montserrat'] text-lg font-semibold mb-4">Support</h3>
+<ul class="space-y-2 text-gray-400">
+<li><a href="#" class="hover:text-white transition-colors">Help Center</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Garden Care Guide</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Plant Disease Help</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Warranty Info</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Returns Policy</a></li>
+<li><a href="#" class="hover:text-white transition-colors">Shipping Info</a></li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 pt-8">
+<div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+<p class="text-gray-400 text-sm">© 2025 GrowSmart Gardens. All rights reserved.</p>
+<div class="flex items-center space-x-6 text-sm text-gray-400">
+<a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+<a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+<a href="#" class="hover:text-white transition-colors">Cookie Policy</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script id="smooth-scroll">
+document.addEventListener('DOMContentLoaded', function() {
+const links = document.querySelectorAll('a[href^="#"]');
+links.forEach(link => {
+link.addEventListener('click', function(e) {
+e.preventDefault();
+const targetId = this.getAttribute('href');
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+const headerHeight = 80;
+const targetPosition = targetElement.offsetTop - headerHeight;
+window.scrollTo({
+top: targetPosition,
+behavior: 'smooth'
+});
+}
+});
+});
+});
+</script>
+<script id="experience-select">
+document.addEventListener('DOMContentLoaded', function() {
+const selectButton = document.getElementById('experience-select');
+const options = ['Beginner', 'Intermediate', 'Advanced', 'Professional'];
+let isOpen = false;
+selectButton.addEventListener('click', function() {
+if (isOpen) return;
+const dropdown = document.createElement('div');
+dropdown.className = 'absolute top-full left-0 right-0 bg-white border border-gray-300 rounded-button mt-1 shadow-lg z-10';
+options.forEach(option => {
+const optionElement = document.createElement('div');
+optionElement.className = 'px-4 py-3 hover:bg-gray-50 cursor-pointer text-sm';
+optionElement.textContent = option;
+optionElement.addEventListener('click', function() {
+selectButton.querySelector('span').textContent = option;
+selectButton.querySelector('span').className = 'text-gray-900';
+dropdown.remove();
+isOpen = false;
+});
+dropdown.appendChild(optionElement);
+});
+selectButton.parentNode.appendChild(dropdown);
+isOpen = true;
+document.addEventListener('click', function closeDropdown(e) {
+if (!selectButton.parentNode.contains(e.target)) {
+dropdown.remove();
+isOpen = false;
+document.removeEventListener('click', closeDropdown);
+}
+});
+});
+});
+</script>
+</body>
+</html>
